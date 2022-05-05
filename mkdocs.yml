@@ -1,5 +1,5 @@
 site_name: Tutorials
-site_url: https://sebieng.io
+site_url: https://sebram99.github.io/fpgawebpage/
 nav:
     - Introduction: index.md
     - FPGA Tutorial: FPGA_Tutorial.md
