@@ -1,4 +1,4 @@
-site_name: Tutorials
+site_name: FPAG Notes
 site_url: https://sebram99.github.io/fpgawebpage/
 nav:
     - Introduction: index.md
