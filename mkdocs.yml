@@ -1,0 +1,7 @@
+site_name: Tutorials
+site_url: https://sebieng.io
+nav:
+    - Introduction: index.md
+    - FPGA Tutorial: FPGA_Tutorial.md
+
+theme: readthedocs
