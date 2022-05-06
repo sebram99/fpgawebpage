@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sebram99.github.io/fpgawebpage/</loc>
-         <lastmod>2022-05-05</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sebram99.github.io/fpgawebpage/FPGA_Tutorial/</loc>
-         <lastmod>2022-05-05</lastmod>
+         <loc>https://sebram99.github.io/fpgawebpage/TestBenchNotes/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sebram99.github.io/fpgawebpage/VUnitTestFramework/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
