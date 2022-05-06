@@ -1,6 +1,6 @@
-# Test Bench Code
+# Test Bench
 
-## Test Bench Only 
+## Test Bench Only functions
 
 * `wait` - Stops process execution.
 #
