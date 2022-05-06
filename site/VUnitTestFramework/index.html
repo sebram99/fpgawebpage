@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://sebram99.github.io/fpgawebpage/FPGA_Tutorial/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://sebram99.github.io/fpgawebpage/VUnitTestFramework/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>FPGA Tutorial - FPAG Notes</title>
+    <title>VUnit Test Framework Notes - FPGA Notes</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "FPGA Tutorial";
-        var mkdocs_page_input_path = "FPGA_Tutorial.md";
-        var mkdocs_page_url = "/fpgawebpage/FPGA_Tutorial/";
+        var mkdocs_page_name = "VUnit Test Framework Notes";
+        var mkdocs_page_input_path = "VUnitTestFramework.md";
+        var mkdocs_page_url = "/fpgawebpage/VUnitTestFramework/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> FPAG Notes
+          <a href=".." class="icon icon-home"> FPGA Notes
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -44,10 +44,16 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
                 </li>
               </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../TestBenchNotes/">Test Bench Notes</a>
+                </li>
+              </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">FPGA Tutorial</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">VUnit Test Framework Notes</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#test-bench-only">Test Bench Only</a>
+    <li class="toctree-l2"><a class="reference internal" href="#test-bench">Test Bench</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
     </li>
     </ul>
                 </li>
@@ -59,13 +65,13 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">FPAG Notes</a>
+          <a href="..">FPGA Notes</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>FPGA Tutorial</li>
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>VUnit Test Framework Notes</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -75,18 +81,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="test-bench-code">Test Bench Code</h1>
-<h2 id="test-bench-only">Test Bench Only</h2>
+                <h1 id="vunit-test-framework-notes">VUnit Test Framework Notes</h1>
+<h2 id="test-bench">Test Bench</h2>
 <ul>
-<li><code>wait</code> - Stops process execution.</li>
-</ul>
-<h1 id="_1"></h1>
-<pre><code>entity
-code her
-</code></pre>
-<ul>
-<li><code>wait on</code> - Wait for a condition to be met.</li>
-<li><code>wait for</code> - Build the documentation site.</li>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
 <h2 id="project-layout">Project layout</h2>
@@ -95,11 +95,13 @@ docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
 </code></pre>
+<p><a href="https://vunit.github.io/">VUnit Repository</a></p>
+<p><a href="https://vhdlwhiz.com/getting-started-with-vunit/" title="hola">Getting started guide vhdlwhiz</a></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../TestBenchNotes/" class="btn btn-neutral float-left" title="Test Bench Notes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -122,7 +124,7 @@ docs/
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../TestBenchNotes/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>

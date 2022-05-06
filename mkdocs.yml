@@ -1,7 +1,8 @@
-site_name: FPAG Notes
+site_name: FPGA Notes
 site_url: https://sebram99.github.io/fpgawebpage/
 nav:
     - Introduction: index.md
-    - FPGA Tutorial: FPGA_Tutorial.md
+    - Test Bench Notes: TestBenchNotes.md
+    - VUnit Test Framework Notes: VUnitTestFramework.md
 
 theme: readthedocs
