@@ -4,5 +4,6 @@ nav:
     - Introduction: index.md
     - Test Bench Notes: TestBenchNotes.md
     - VUnit Test Framework Notes: VUnitTestFramework.md
+    - Utilities: Utilities.md
 
 theme: readthedocs
