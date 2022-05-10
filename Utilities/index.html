@@ -55,7 +55,7 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Utilities</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#remove-tracking-from-git">Remove tracking from git</a>
+    <li class="toctree-l2"><a class="reference internal" href="#remove-file-or-folder-tracking-from-git-repo">Remove file or folder tracking from git repo</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#vscode-useful-extensions">VSCode useful extensions</a>
     </li>
@@ -86,8 +86,10 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="utilites">Utilites</h1>
-<h2 id="remove-tracking-from-git">Remove tracking from git</h2>
-<p>Edit exclude file in <code>.git/info/exclude</code></p>
+<h2 id="remove-file-or-folder-tracking-from-git-repo">Remove file or folder tracking from git repo</h2>
+<p>Sometimes I want to remove files from version control, but I don't want to add them to <code>.gitignore</code>, 
+because they are a local configuration file, so I edit exclude file in <code>.git/info/exclude</code>,
+and just add the files or folder that I don't want to track in git.</p>
 <pre><code># git ls-files --others --exclude-from=.git/info/exclude
 # Lines that start with '#' are comments.
 # For a project mostly in C, the following would be a good set of
