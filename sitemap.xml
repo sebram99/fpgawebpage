@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://sebram99.github.io/fpgawebpage/</loc>
-         <lastmod>2022-05-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sebram99.github.io/fpgawebpage/TestBenchNotes/</loc>
-         <lastmod>2022-05-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sebram99.github.io/fpgawebpage/Utilities/</loc>
-         <lastmod>2022-05-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sebram99.github.io/fpgawebpage/VUnitTestFramework/</loc>
-         <lastmod>2022-05-10</lastmod>
-         <changefreq>daily</changefreq>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://sebram99.github.io/fpgawebpage/</loc>
+     <lastmod>2024-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://sebram99.github.io/fpgawebpage/TestBenchNotes/</loc>
+     <lastmod>2024-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://sebram99.github.io/fpgawebpage/VUnitTestFramework/</loc>
+     <lastmod>2024-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://sebram99.github.io/fpgawebpage/Utilities/</loc>
+     <lastmod>2024-09-24</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
