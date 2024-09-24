@@ -1,6 +1,6 @@
 # Welcome
 
-## Test Bench 
+## Test Bench
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
