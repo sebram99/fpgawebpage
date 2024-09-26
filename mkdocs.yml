@@ -5,6 +5,7 @@ nav:
     - Utilities: Utilities.md
     - Blog:
       - blog/index.md
+    - About: about.md
 
 theme: material
 
