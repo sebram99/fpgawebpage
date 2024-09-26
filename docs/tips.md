@@ -1,4 +1,4 @@
-# Utilites
+# Useful tips
 
 ## Remove file or folder tracking from git repo
 
@@ -14,10 +14,3 @@ and just add the files or folder that I don't want to track in git.
     # *~
     somefile.txt
     /somedirectory
-
-##  VSCode useful extensions
-
-*   `vhdl_ls` Linting and syntax correction. (Note: needs `vhdl_ls.toml` file in root directory.) 
-        [vhdl_ls repository](https://github.com/VHDL-LS/rust_hdl_vscode)
-
-*   `vhdl_whiz` autocompletion.

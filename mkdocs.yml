@@ -2,7 +2,7 @@ site_name: FPGA & SDR
 site_url: https://sebram99.github.io/fpgawebpage/
 nav:
     - Introduction: index.md
-    - Utilities: Utilities.md
+    - Useful tips: tips.md
     - Blog:
       - blog/index.md
     - About: about.md

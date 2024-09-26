@@ -1,5 +1,7 @@
 # Documentation/Blog FPGA, DSP and SDR related information
 
+![Logo](logo.png)
+
 ## Create python enviroment
 
 ### VSCode enviroment
